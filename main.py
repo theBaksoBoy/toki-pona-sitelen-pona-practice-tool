@@ -31,15 +31,6 @@ class Program:
     current_stroke = []
     strokes = []
 
-    categories_to_use = []
-    with open("selected_categories.txt") as f:
-        lines = f.readlines()
-        for line in lines:
-            if line == "" or line == "\n" or line[0] == "#":
-                continue
-            categories_to_use.append(line[0])
-
-    
     words = {
         "a": {"rarity": "core", "usage": 0, "translation": "interjection like ah or oh, and placed after something for emphasis or emotion"},
         "akesi": {"rarity": "core", "usage": 0, "translation": "reptile, amphibian, scaly creature, crawling creature"},
@@ -181,11 +172,19 @@ class Program:
         "oko": {"rarity": "uncommon", "usage": 52, "translation": "see, look, view, examine, read, watch; visual; eye, seeing organ; (preverb) try to"},
         "su": {"rarity": "uncommon", "usage": 50, "translation": "interacting with a book from the official toki pona story books"},
     }
+
+    categories_to_use = []
+    with open("selected_categories.txt") as f:
+        lines = f.readlines()
+        for line in lines:
+            if line == "" or line == "\n" or line[0] == "#":
+                continue
+            categories_to_use.append(line.replace("\n", ""))
+
     words_to_use = {}
     for word in words:
-        if word[0] in categories_to_use:
+        if word in categories_to_use:
             words_to_use[word] = words[word]
-
     words = words_to_use
 
 
