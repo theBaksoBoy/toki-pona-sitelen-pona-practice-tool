@@ -1,0 +1,16 @@
+# file for what words to include in terms of what letter they start with. Comment lines with a # to make words starting on that letter not appear
+
+a
+e
+i
+j
+k
+l
+m
+n
+o
+p
+s
+t
+u
+w
