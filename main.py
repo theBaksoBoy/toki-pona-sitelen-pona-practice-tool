@@ -73,6 +73,7 @@ class Program:
         "lete": {"rarity": "core", "usage": 0, "translation": "cold, cool, frozen; freeze, chill; raw, uncooked"},
         "li": {"rarity": "core", "usage": 0, "translation": "(particle that marks the start of an indicative verb (statement))"},
         "lili": {"rarity": "core", "usage": 0, "translation": "small, short, young; few; piece, part"},
+        "linja": {"rarity": "core", "usage": 0, "translation": "long flexible thing, e.g. rope, yarn hair, fur, line, strand"},
         "lipu": {"rarity": "core", "usage": 0, "translation": "flat and bendable object, e.g. paper, card, leaf; written text or document, e.g. book, website, clay tablet"},
         "loje": {"rarity": "core", "usage": 0, "translation": "red magenta, scarlet, pink, rust-colored, reddish orange"},
         "lon": {"rarity": "core", "usage": 0, "translation": "present, existing, real, true; (preposition) located at, in, during, in the context of"},

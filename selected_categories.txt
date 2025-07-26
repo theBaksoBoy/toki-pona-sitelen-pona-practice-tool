@@ -42,6 +42,7 @@ len
 lete
 li
 lili
+linja
 lipu
 loje
 lon
